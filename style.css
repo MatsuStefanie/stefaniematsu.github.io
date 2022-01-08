@@ -23,12 +23,13 @@ main {
   justify-items: center;
   align-items: center;
   background-color: var(--pallete1);
+  height: 40vh;
 }
 
 .imagem {
   display: flex;
   margin: 2%;
-  width: 20vw;
+  width: 15vh;
   border-radius: 100%;
 }
 
@@ -36,6 +37,9 @@ main {
   display: flex;
   flex-direction: column;
   width: 70vw;
+}
+.icons img {
+  width: 50px;
 }
 
 h1 {
@@ -54,12 +58,45 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  overflow: hidden;
 }
-.row div {
-    max-width: 30vw;
+section.row div {
+  width: 26vw;
+  height: 60vh;
 }
-.skills {
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.column .div {
   width: 10vw;
+}
+
+.carrossel {
+  width: 100vw;
+  height: 60vh;
+}
+.bloco {
+    display: none;
+  width: 100%;
+  height: 100%;
+}
+.bloco:target {
+  display: flex;
+}
+.bloco a.setas{
+  margin: auto 0;
+}
+.bloco a.setas button{
+  border-radius: 15px;
+  height:auto;
+  font-size: 35px;
+  padding: 3px;
+}
+
+.skills {
+  width: 15vw;
 }
 .skills img {
   width: 60%;
