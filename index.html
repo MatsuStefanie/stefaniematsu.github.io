@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@400;700&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem vindo</title>
+    <style>
+        * {
+  --pallete1: #462b6e;
+  --pallete2: #6e4f84;
+  --pallete3: #8673a4;
+  --pallete4: #6a457a;
+  --pallete5: #d7d0e3;
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto, sans-serif;
+  color: var(--pallete5);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--pallete2);
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  background-color: var(--pallete1);
+  height: 40vh;
+}
+
+.imagem {
+  display: flex;
+  margin: 2%;
+  width: 15vh;
+  border-radius: 100%;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+}
+.icons img {
+  width: 50px;
+}
+
+h1 {
+  font-size: 45px;
+  font-family: "The Nautigal";
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: "The Nautigal";
+  font-weight: 700;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+section.row div {
+  width: 26vw;
+  height: 60vh;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.column .div {
+  width: 10vw;
+}
+
+.carrossel {
+  width: 100vw;
+  height: 60vh;
+}
+.bloco {
+    display: none;
+  width: 100%;
+  height: 100%;
+}
+.bloco:target {
+  display: flex;
+}
+.bloco a.setas{
+  margin: auto 0;
+}
+.bloco a.setas button{
+  border-radius: 15px;
+  height:auto;
+  font-size: 35px;
+  padding: 3px;
+}
+
+.skills {
+  width: 15vw;
+}
+.skills img {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.today {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: "The Nautigal";
+  font-weight: 400;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  color: var(--pallete1);
+}
+
+.accordion {
+  background-color: var(--pallete3);
+  color: var(--pallete4);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: var(--pallete3);
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: var(--pallete1);
+  overflow: hidden;
+}
+
+td,
+th {
+  border: 1px solid var(--pallete3);
+  background-color: var(--pallete1);
+  text-align: left;
+  padding: 8px;
+}
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="profile">
+            <img class="imagem"
+                src="https://scontent-gru1-2.xx.fbcdn.net/v/t39.30808-6/251879924_4155909487848122_4981543921767611189_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEiKLgAdJyRCCuuYSgRp8JFTXbGMr3pcmlNdsYyvelyaWYjudVyVB0s1gCJMzUJ4Ajfm1exL69MQPbTKoeG1iFn&_nc_ohc=dzdRevwwHPUAX8lrDSB&_nc_ht=scontent-gru1-2.xx&oh=00_AT-TPvfkrLm-31yMNVunk34oiZhKm6-YVDkZAsmo644KTw&oe=61DDACEB"
+                alt="Stefanie Silva">
+            <div class="texto">
+                <h1>Stefanie da Silva Souza</h1>
+                <h2>
+                    Web designer
+                    <h3>
+                        UX&UI e Front-end Development
+                    </h3>
+                </h2>
+            </div>
+            <div class="icons column">
+                <a href="www.linkedin.com/in/stefaniedasilvasouzamatsu">
+                    <img src="https://icones.pro/wp-content/uploads/2021/03/icone-linkedin-ronde-violet.png"
+                        alt="Linkedin">
+                </a>
+                <a href="stefaniedasilvasouza.matsu@gmail.com">
+                    <img src="https://icones.pro/wp-content/uploads/2021/03/icone-gmail-logo-png-roxo.png" alt="Gmail">
+                </a>
+                <a href="github.com/MatsuStefanie">
+                    <img src="https://icones.pro/wp-content/uploads/2021/06/icone-github-violet.png" alt="github">
+                </a>
+                <a href="br.pinterest.com/matsustefanie"><img
+                        src="https://icones.pro/wp-content/uploads/2021/07/logo-pinterest-violet.png" alt="pinterest">
+                </a>
+                <a href="dribbble.com/StefanieMatsu">
+                    <img src="https://i.pinimg.com/originals/bc/77/08/bc7708d20c14a87efb0a0a22ed1f5a84.png"
+                        alt="dribbble">
+                </a>
+            </div>
+
+        </section>
+        <section class="row carrossel">
+            <section class="row bloco bloco1 " id="bloco1">
+                <a href="#bloco2" class="setas">
+                    <button>
+                       < </button>
+                </a>
+                <div class="skills">
+                    <h2>Habilidades</h2>
+                    <button class="accordion">Linguagens</button>
+                    <div class="panel">
+                        <ul>
+                            <li>Java</li>
+                            <li>Typescript</li>
+                            <li>Javascript</li>
+                        </ul>
+                    </div>
+
+                    <button class="accordion">Framework</button>
+                    <div class="panel">
+                        <ul>
+                            <li>SpringBoot</li>
+                            <li>Angular</li>
+                            <li>Vue</li>
+                        </ul>
+                    </div>
+
+                    <button class="accordion">UI framework</button>
+                    <div class="panel">
+                        <ul>
+                            <li>Material IO</li>
+                            <li>Materialize</li>
+                            <li>Vue</li>
+                        </ul>
+                    </div>
+
+                    <button class="accordion">Web</button>
+                    <div class="panel">
+                        <ul>
+                            <li>HTML 5</li>
+                            <li>CSS 3</li>
+                            <li>Sharepoint</li>
+                        </ul>
+                    </div>
+
+                    <button class="accordion">Editores</button>
+                    <div class="panel">
+                        <ul>
+                            <li>Figma</li>
+                            <li>Photoshop</li>
+                        </ul>
+                    </div>
+
+                    <button class="accordion">IDE</button>
+                    <div class="panel">
+                        <ul>
+                            <li>VSC (Visual Studio Code)</li>
+                            <li>Intellij IDEA</li>
+                        </ul>
+                    </div>
+
+                    <button class="accordion">Repositorio</button>
+                    <div class="panel">
+                        <ul>
+                            <li>Git</li>
+                            <li>GitHub</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="today">
+                    <h2>Atualmente</h2>
+                    <p>Front-End baseado em Angular</p>
+                    <p>Back-End estruturado em Spring Framework</p>
+                    <p>Pesquisa UX</p>
+                    <p>Desenho UI em Figma</p>
+                </div>
+                <div class="aboutMe">
+                    <h2>Sobre mim</h2>
+                    <p>Sou apaixonada por arte, gosto de criar coisas manualmente, desde caixinhas decoradas, até
+                        cosplays.
+                        Gosto também de debates e trocas de conhecimento (senta aqui vamos conversar como somos grãos de areia no universo).
+                        Além de vivenciar do mundo Geek e Gamer, agora sim estou colocando os animes em dia, mas nada que eu já não tenha spoiler sobre muitos.</p>
+                </div>
+                <a href="#bloco2" class="setas">
+                    <button >
+                        <p> > </p>
+                    </button>
+                </a>
+            </section>
+            <section class="row bloco bloco2" id="bloco2">
+                <a href="#bloco1" class="setas">
+                    <button >
+                        < </button>
+                </a>
+                <div class="formations">
+                    <h3>Formações</h3>
+                    <h4>Etec de Guaianazes</h4>
+                    <h4>TEC. DESENVOLVIMENTO DE SISTEMAS</h4>
+                    <p>2015 - 2016 (18 meses)</p>
+
+                    <h4>Universidade Nove de julho</h4>
+                    <h4>TEC. REDES DE COMPUTADORES</h4>
+                    <p>2017 - 2021 </p>
+                </div>
+                <div class="projects">
+                    <h2>Projetos</h2>
+                    <h4>Mulheres em foco</h4>
+                    <p>Desenvolvido de aplicação para suporte socioemocional a mulheres</p>
+                    <p>Aplicação mobile com view web</p>
+
+                    <h4>Pata amiga</h4>
+                    <p>Desenvolvido para centro de adoção de pets</p>
+                    <p>Site estático com base HTML e CSS</p>
+                </div>
+                <div class="experiences">
+                    <h3>Experiencias em TI</h3>
+                    <h4>Freelancers</h4>
+
+                    <h4>SPEC</h4>
+                    <p>Desenvolvido para empresa de eletrônica industrial</p>
+                    <p>Template demonstrativo criado</p>
+                    <p>Site responsivo</p>
+                </div>
+                <a href="#bloco1" class="setas">
+                    <button > > </button>
+                </a>
+
+            </section>
+        </section>
+    </main>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+        window.location = "#bloco1";
+    </script>
+</body>
+
+</html>
