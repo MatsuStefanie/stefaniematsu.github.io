@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @StefanieMatsu
+- 👋 Hi, I’m @MatsuStefanie, but my real name is Stefanie Silva
 - 👀 I’m interested in accessibility and inclusion
 - 🌱 I’m currently learning UX 
 - 💞️ I’m looking to collaborate on Front end projects in Angular
