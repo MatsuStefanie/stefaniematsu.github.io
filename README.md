@@ -1,7 +1,7 @@
 <div align="center">
 <h1>Olá, me chamo Stefanie Vidal</h1>
 
-<p>Aquio você verá um pouco sobre tudo que já estudei, mas em especial:</p>
+<p>Aqui você verá um pouco sobre tudo que já estudei, mas em especial:</p>
 <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40"/> <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="40" height="40"/> <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" height="40"/>
 
 
@@ -11,7 +11,9 @@
 
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=MatsuStefanie&theme=midnight-purple&hide_border=true&border_radius=10&locale=pt_BR&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
+
 ![matsustefanie's Stats](https://github-readme-stats.vercel.app/api?username=matsustefanie&theme=midnight-purple&show_icons=true&hide_border=true&count_private=true)
+
 ![matsustefanie's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=matsustefanie&theme=midnight-purple&show_icons=true&hide_border=true&layout=compact)
 
 
