@@ -1,6 +1,4 @@
-# Olá, me chamo Stefanie Vidal ! 
-## Bem vindo ao meu perfil GitHub 👋
-
+# Olá, me chamo Stefanie Vidal <br/> Bem vindo ao meu perfil GitHub 👋! 
 ## Sobre mim
 <p>Sou Stefanie, uma desenvolvedora backend apaixonada por tornar a tecnologia mais acessível e inclusiva para todos. Com formação em redes e agora analise de sistemas, sou atuante em desenvolvimento de sistemas, busco constantemente aprimorar minhas habilidades para facilitar e aprimorar a interação entre humanos e computadores. Meu trabalho não é apenas uma carreira, mas uma missão para garantir que todos tenham acesso igualitário às oportunidades oferecidas pela tecnologia.</p>
 <p>Ao longo da minha jornada profissional, tive a oportunidade de contribuir para projetos significativos que impactaram positivamente a vida das pessoas. De otimizar sistemas para maior eficiência até liderar iniciativas de acessibilidade, estou comprometida em fazer a diferença no mundo da tecnologia.</p>
