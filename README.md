@@ -1,10 +1,20 @@
-# Olá, me chamo Stefanie Vidal <br/> Bem vindo ao meu perfil GitHub 👋! 
-## Sobre mim
-<p>Sou Stefanie, uma desenvolvedora backend apaixonada por tornar a tecnologia mais acessível e inclusiva para todos. Com formação em redes e agora analise de sistemas, sou atuante em desenvolvimento de sistemas, busco constantemente aprimorar minhas habilidades para facilitar e aprimorar a interação entre humanos e computadores. Meu trabalho não é apenas uma carreira, mas uma missão para garantir que todos tenham acesso igualitário às oportunidades oferecidas pela tecnologia.</p>
-<p>Ao longo da minha jornada profissional, tive a oportunidade de contribuir para projetos significativos que impactaram positivamente a vida das pessoas. De otimizar sistemas para maior eficiência até liderar iniciativas de acessibilidade, estou comprometida em fazer a diferença no mundo da tecnologia.</p>
-<p>Além disso, sou uma entusiasta da música no chuveiro e uma defensora fervorosa de todas as formas de arte. Sinta-se bem-vindo ao meu github, onde compartilho meus projetos e talvez eu finaliza eles.</p>
+<div align="center">
+<h1>Olá, me chamo Stefanie Vidal</h1>
 
-<img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40"/> <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="40" height="40"/>
+<p>Aquio você verá um pouco sobre tudo que já estudei, mas em especial:</p>
+<img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40"/> <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="40" height="40"/> <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" height="40"/>
+
+
+## Sobre mim
+
+<p>Fala galera! Eu sou a Stefanie, uma dev backend que tá sempre na missão de deixar a tecnologia mais fácil e acessível pra todo mundo. Comecei com redes e agora tô na análise de sistemas, sempre buscando melhorar minhas habilidades pra facilitar a interação entre humanos e computadores. No meu trajeto profissional, já dei meus pulos em projetos que fizeram a diferença na vida das pessoas, desde otimizar sistemas até liderar paradas de acessibilidade. Ah, e quando não tô codando, tô no chuveiro soltando a voz e sou mega fã de qualquer tipo de arte. Dá um pulo no meu GitHub pra ver os projetos que tô tocando e quem sabe até finalizando, né?</p>
+
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=MatsuStefanie&theme=midnight-purple&hide_border=true&border_radius=10&locale=pt_BR&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
+![matsustefanie's Stats](https://github-readme-stats.vercel.app/api?username=matsustefanie&theme=midnight-purple&show_icons=true&hide_border=true&count_private=true)
+![matsustefanie's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=matsustefanie&theme=midnight-purple&show_icons=true&hide_border=true&layout=compact)
+
+
 
 
 ## Contatos:
@@ -16,10 +26,11 @@
 </div>
 
 <div>
-<a href="[https://github.com/seu-usuário-aqui](https://github.com/MatsuStefanie)">
-<img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matsustefanie&layout=compact&langs_count=7&theme=dracula"/>
-<img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api?username=MatsuStefanie&show_icons=true&theme=dracula&include_all_commits=true&count_private=false"/>
+
+
+
+
+
 
 </div>
-
-![Snake animation](https://github.com/matsustefanie/matsustefanie/blob/output/github-contribution-grid-snake.svg)
+</div>
